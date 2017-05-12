@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.license      = "MIT"
   s.author       = { "Leo Xiang" => "xianghui_ios@163.com" }
   s.source       = { :git => "https://github.com/GodFighter/WRMacro.git", :tag => s.version }
-  s.source_files = "WRMacro/WRMacro/*"
+  s.source_files = "WRMacro/WRMacro/**/*"
   s.ios.deployment_target = '7.0'
   s.frameworks   = 'UIKit'
   s.social_media_url = "http://weibo.com/huigedang/home?wvr=5&lf=reg"
