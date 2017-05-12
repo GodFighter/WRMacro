@@ -1,13 +1,13 @@
 Pod::Spec.new do |s|
   s.name         = "WRMacro"
   s.version      = "1.0.0"
-  s.summary      = "WRMacro common."
-  s.description  = "常用宏定义."
+  s.summary      = "宏定义."
+  s.description  = "个人常用宏定义."
   s.homepage     = "https://github.com/GodFighter/WRMacro.git"
   s.license      = "MIT"
   s.author       = { "Leo Xiang" => "xianghui_ios@163.com" }
   s.source       = { :git => "https://github.com/GodFighter/WRMacro.git", :tag => s.version }
-  s.source_files = "WRMacro/WRMacro/*.{h,m}"
+  s.source_files = "WRMacro/WRMacro/*.{h}"
   s.ios.deployment_target = '7.0'
   s.frameworks   = 'UIKit'
   s.social_media_url = "http://weibo.com/huigedang/home?wvr=5&lf=reg"
