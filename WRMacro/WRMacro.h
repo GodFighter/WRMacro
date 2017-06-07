@@ -132,7 +132,7 @@
 /**
  * random color
  */
-#define WR_COLOR_RANDOM                WR_COLOR_RGB(arc4random_uniform(256)/255.0, arc4random_uniform(256)/255.0, arc4random_uniform(256)/255.0)
+#define WR_COLOR_RANDOM                WR_COLOR_RGB(arc4random_uniform(256), arc4random_uniform(256), arc4random_uniform(256))
 #pragma mark -
 #pragma mark Path
 /**
