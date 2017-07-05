@@ -17,7 +17,9 @@
 @implementation ViewController
 
 - (void)viewDidLoad {
-    [super viewDidLoad];    
+    [super viewDidLoad];
+    
+    self.view.backgroundColor = WR_COLOR_RANDOM;
 }
 
 - (void)didReceiveMemoryWarning {
